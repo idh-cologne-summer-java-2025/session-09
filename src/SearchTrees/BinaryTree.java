@@ -3,7 +3,10 @@ package SearchTrees;
 import java.util.Comparator;
 
 /**
- * Generischer Binär-Suchbaum für beliebige vergleichbare Objekte
+ * Generischer Binär-Suchbaum für beliebige 
+ * (nicht mehr nötig: vergleichbare) Objekte
+ * "extends Comparable<T> kannn gelöscht werden
+ * 
  */
 public class BinaryTree<T extends Comparable<T>> {
 
