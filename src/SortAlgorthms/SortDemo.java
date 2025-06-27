@@ -7,7 +7,7 @@ public class SortDemo {
 
 	public static void main(String[] args) {
         int[] smallArray = generateRandomArray(5);
-        int[] largeArray = generateRandomArray(100000);
+        int[] largeArray = generateRandomArray(1000000);
 
         System.out.println("Unsortiertes kleines Array: " + Arrays.toString(smallArray));
 

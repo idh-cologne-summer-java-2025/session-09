@@ -8,7 +8,7 @@ import java.util.Comparator;
  * "extends Comparable<T> kannn gelöscht werden
  * 
  */
-public class BinaryTree<T extends Comparable<T>> {
+public class BinaryTree<T>{
 
 	/**
 	 * Innere Klasse für die Knoten
@@ -52,7 +52,7 @@ public class BinaryTree<T extends Comparable<T>> {
 		}
 
 		boolean contains(T searchValue) {
-			int cmp = searchValue.compareTo(value);
+			int cmp = compare(this.value, value);
 			if (cmp == 0) {
 				return true;
 			} else if (cmp < 0) {
